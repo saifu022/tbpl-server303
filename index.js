@@ -182,7 +182,6 @@ async function run() {
     });
 
     //EID 2023
-
     const eidCollection = database.collection(
       `${process.env.DB_COLLECTION_EID}`
     );
